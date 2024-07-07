@@ -12,7 +12,6 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* border: solid; */
   margin: 3vmax 0;
   width: 100%;
 }
@@ -24,8 +23,9 @@ body{
   height: 6vmax;
   width: 80%;
   padding: 0 20px;
+  border-radius: 10px;
   background-image: linear-gradient(to right, #c40d59, #c8c86a);
-  box-shadow: 0 0 10px 1px #0a0a0a;
+  box-shadow: 0 0 5px -1px #0a0a0a;
 }
 .header>img{
   height: 120%;
@@ -42,7 +42,7 @@ main{
   width: 80%;
   margin: 20px 0;
   border-radius: 10px;
-  /* box-shadow: 0 0 10px 1px #0a0a0a; */
+  box-shadow: 0 0 10px -5px #0a0a0a;
 
 }
 .form{
@@ -57,6 +57,8 @@ main{
 .form-input{
   text-indent: 10px;
   font-size: 1.5vmax;
+  box-shadow: 0 0 10px -5px #0a0a0a;
+  border: .1px solid;
 }
 .form-btn{
   grid-column: 1/-1;
@@ -64,6 +66,8 @@ main{
   color: whitesmoke;
   background-image: linear-gradient(to right, #c40d59, #c8c86a);
   cursor: pointer;
+  box-shadow: 0 0 10px -5px #0a0a0a;
+  border: .5px solid;
 }
 
 .meme {

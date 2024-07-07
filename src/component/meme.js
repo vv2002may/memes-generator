@@ -1,6 +1,4 @@
 import React,{useState,useEffect} from 'react'
-import memesData from './memesData'
-
 export default function Meme() {
    // const [url, setUrl] = React.useState('https://i.imgflip.com/30b1gx.jpg');
 
@@ -10,7 +8,7 @@ export default function Meme() {
       randomImg: 'http://i.imgflip.com/1bij.jpg'
    });
 
-   const [allMeme, setAllMeme] = React.useState(memesData);
+   const [allMeme, setAllMeme] = React.useState({});
 
    function handleChange(event) {
       const { name, value } = event.target;
